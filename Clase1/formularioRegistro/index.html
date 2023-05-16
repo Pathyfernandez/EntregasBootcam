@@ -1,0 +1,70 @@
+<!DOCTYPE html>  
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Formulario</title>
+    </head>
+    <body>
+        <h1>Registration From</h1>
+        <form action="#">
+            <div> 
+                <label for="nombre">First Name *</label>
+                <input type="text" name="nombre" id="nombre" required>
+            </div>
+            <div>
+                <label for="apellido">Last Name *</label>
+                <input type="text" name="apellido" id="apellido" required>
+            </div>
+            <div>
+                <label for="email">Email *</label>
+                <input type="email" name="email" id="email" required>
+            </div>
+            <div>
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password">
+            </div>
+            <div>
+            <label for="password2">Confirm Password</label>
+            <input type="password" name="password2">
+            </div>
+            <div>
+                <label for="birthDay">Birth Day</label>
+            <input type="date" name="birthDay" id="birthDay">
+            </div>
+            <div>
+                <label for="sexo">Gender Identity</label>
+            <input type="radio" name="sexo" id="sexo" value="M">Masculino
+            <input type="radio" name="sexo" id="sexo" value="F">Femenino
+            </div>
+            <div>
+                <label for="descripcion">A short description about myself</label>
+                <textarea name="descripcion" id="descripcion" cols="30" rows="10"></textarea>
+                <input type="submit" value="Submit">
+            </div>
+            <div>
+                <label for="language">Favorite Language</label>
+                <select name="language" id="language">
+                    <option value="PHP">PHP</option>
+                    <option value="JavaScript">JavaScript</option>
+                    <option value="Java">Java</option>
+                    <option value="C#">C#</option>
+                </select>
+            </div>
+            <div>
+                <input type="checkbox" name="offers" 
+                id="offers" checked >
+                <label for="offers">Yes, I would like to receive offers by mail!</label>
+            </div>
+            <input type="submit" value="Sign Up!" >
+            <div>
+                <input type="button" value="Create Account">
+            </div>
+            
+        </form>
+
+    </body>
+    </html>
+
+            
+    </body>
+</html>
