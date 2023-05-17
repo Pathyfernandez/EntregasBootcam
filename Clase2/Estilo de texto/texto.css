@@ -1,0 +1,27 @@
+
+h1 {
+    background-color: black;
+    color: white;
+    text-align: left;
+    padding: 10px;
+}
+span {
+    color: aqua;
+}
+
+h2 {
+    background-color:blue;
+    color: white;
+    text-align: center;
+}
+
+a {
+    background-color: aqua;
+    color: blue;
+    padding: 10px;
+    text-align: right;
+    font-size: small;
+    display: block;
+    }
+
+    
