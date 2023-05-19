@@ -1,0 +1,29 @@
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: blueviolet;
+}
+.container1{
+    background-color: blanchedalmond;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.container2{
+    background-color: yellow;display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.block {
+    flex-basis: calc(33.33% - 10px);
+    margin: 5px;
+}
+
+.block img {
+    width: 100%;
+    height: auto;
+}
