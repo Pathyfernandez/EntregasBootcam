@@ -1,0 +1,42 @@
+.row {
+    display: flex;
+    padding: 0;
+
+}
+
+.col {
+    flex: 1;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: rgb(122, 122, 241);
+    margin: 10px;
+    flex-direction: row;
+    
+}
+.col-2 {
+    flex: 2;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: rgb(171, 91, 247);
+    margin: 10px;
+}
+
+@media (max-width: 768px) {
+    .col-2 {
+    flex-basis: 100%;
+    }
+}
+
+.col-3 {
+    flex: 3;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: blanchedalmond;
+    margin: 10px;
+}
+
+@media (max-width: 768px) {
+.col-3 {
+    flex-basis: 100%;
+    }
+}
