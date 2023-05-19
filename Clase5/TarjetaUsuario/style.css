@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos Body */
+
+body {
+    background-color: #f3f3f3;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.contenedor-flex {
+    width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tarjeta {
+    width: 100%;
+    background-color: #fff;
+    border: 2px solid black;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    overflow: hidden;
+}
+
+.tarjeta-cabacera {
+    background-color: #17a2b8;
+    height: 125px;
+    margin-bottom: 70px;
+}
+
+.tarjeta-cuerpo {
+    padding: 20px;
+}
+
+.tarjeta-cuerpo h1, 
+.tarjeta-cuerpo h2,
+.tarjeta-cuerpo h3,
+.tarjeta-cuerpo p {
+    margin: 20px 0px;
+}
+
+.avatar {
+    border-radius: 50%;
+    background-color: #fff;
+    height: 190px;
+    padding: 5px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.icono {
+    height: 20px;
+}
+
+a {
+    color: #3a81e6;
+}
