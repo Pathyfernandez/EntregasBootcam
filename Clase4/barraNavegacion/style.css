@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(68, 67, 67);
+    padding: 10px;
+    border: 1px solid white;
+}
+
+.nav-title {
+    color: white;
+    font-size: 30px;
+}
+
+.nav-links {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+}
+
+.nav-links li {
+    margin-right: 10px;
+}
+
+.btn {
+    background-color: aqua;
+    color: rgba(131, 129, 129, 0.822);
+    padding: 10px;
+    font-size: 10px;
+    box-shadow: 8px 5px 1px 0.5px black;
+
+}
+
+.active {
+    font-weight: bold;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
