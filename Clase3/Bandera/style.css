@@ -1,0 +1,42 @@
+.container {
+    width: 950px;
+    height: 600px;
+    background-color: silver;
+    margin: 0px auto;
+    padding: 10px;
+}
+
+.bandera {
+    height: 100%;
+    width: 100%;
+    float: left;
+    margin: 10px;
+    background-color: white;
+    border: 2px solid #0000;
+}
+
+.azul {
+    width: 30%;
+    height: 50%;
+    background-color: #0039A6;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.rojo {
+    width: 100%;
+    height: 50%;
+    background-color: #D52B1E;
+    display:inline-block;
+}
+
+#estrella {
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    width: 70px;
+    height: 70px;
+    background-color: #FFFFFF;
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+}
