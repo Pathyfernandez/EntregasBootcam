@@ -1,0 +1,200 @@
+    /* Estilos para el contenedor principal */
+    .contenedor-flex {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        margin-top: 20px;
+
+    }
+    
+    /* Estilos para la tarjeta 1 */
+    .contenedor1-flex {
+        flex-basis: 600px;
+        flex-direction: column;
+        justify-content: start;
+        padding-bottom: 10px;
+
+
+    }
+    .tarjeta {
+        border-radius: 5px;
+        border: solid 1px black;
+        margin-top: 10px;
+    }
+    
+    .tarjeta-cabecera {
+        background-color: #17a2b8;
+        height: 125px;
+        margin-bottom: 70px;
+        
+    }
+    
+    .avatar {
+        border-radius: 50%;
+        background-color: #fff;
+        height: 190px;
+        padding: 5px;
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+    
+    .tarjeta-cuerpo {
+        text-align: start;
+        padding: 20px;
+        margin: 20px 0px;
+    }
+    
+    /* Estilos para la tarjeta 2 y 3 */
+    .contenedor2-flex {
+        display: flexbox;    
+        justify-content: space-between;
+        flex-wrap: wrap;
+
+    }
+    
+    .tarjeta2{
+        
+        border-radius: 5px;
+        border: solid 1px black;
+        margin-top: 10px;
+        width: 400px;
+        position: fixed; top: 100px; left: 900px;
+    }
+    .tarjeta3 {
+        
+        border-radius: 5px;
+        border: solid 1px black;
+        margin-top: 10px;
+        width: 400px;
+        position: fixed; top: 400px; left: 900px;
+
+    }
+    
+    .tarjeta2-cabecera,
+    .tarjeta3-cabecera {
+        display: flex;
+        background-color: #020202;
+        color: #fff;
+        align-items: center; 
+        justify-content: space-around;
+        font-weight: bold;
+    }
+    
+    .tarjeta2-cuerpo,
+    .tarjeta3-cuerpo {
+        display: flexbox;
+        margin-top: 20px;
+        font-size: 16px;
+    }  
+    .tarjeta2-cuerpo div {
+        display: flex;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+    .tarjeta2-cuerpo h3 {
+        margin-left: 10px;
+        margin-bottom: 0;
+    }
+    
+
+    /* Estilos para la tarjeta 4 */
+
+    .tarjeta4 {
+        border-radius: 5px;
+        border: solid 1px black;
+        width: 600px; 
+    }
+    
+    
+    .tarjeta4-cabecera {
+        display: flex;
+        background-color: #020202;
+        color: #fff;
+        align-items: center;
+    }
+    
+    /* Estilos generales */
+    h1,
+    h2,
+    h3,
+    p,
+    a {
+        font-family: 'Roboto', sans-serif;
+        margin: 20px;
+    }
+    .style{
+        margin: 20px;
+    }
+    .style2{
+        color: black;
+        font-weight: bold;
+
+    }
+
+    
+    .nav {
+        background-color: #333;
+        color: #fff;
+        padding: 10px;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .nav-title {
+        margin: 0;
+    }
+    
+    .nav-links {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+    
+    .nav-links li {
+        margin-left: 10px;
+    }
+    
+    .nav-links li:first-child {
+        margin-left: 0;
+    }
+    
+    .nav-links a {
+        color: #fff;
+        text-decoration: none;
+    }
+    
+    .nav-links a.active {
+        font-weight: bold;
+    }
+    
+    .btn {
+        background-color: aqua;
+        color: #fff;
+        border: none;
+        padding: 8px 16px;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    
+.icono{
+    width: 16px;
+    height: 16px;
+    margin-right: 5px;
+    border-radius: 50%;
+}                                                         
+.icono-s {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+}
+.span{
+        font-size: 20px;
+        border-radius: 50%;    
+        border: solid 3px white;
+        background-color: black;
+        color: white;
+}
