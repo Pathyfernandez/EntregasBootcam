@@ -1,0 +1,49 @@
+    /* CSS reset */
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    /* Clase fixed-width container que se "autocentrará" a sí misma */
+    .container {
+        width: 1200px;
+        margin: 0 auto;
+    }
+    
+    /* Estilo de botón favorito */
+    .btn {
+        display: inline-block;
+        padding: 10px 20px;
+        font-size: 16px;
+        font-weight: bold;
+        text-align: center;
+        text-decoration: none;
+        color: #ffffff;
+        background-color: #337ab7;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+    
+    /* Clase de fila (row) para columnas flexibles */
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    /* Clase de columna (col) para columnas flexibles */
+    .col {
+        flex-basis: 100%;
+        padding: 10px;
+    }
+    
+    /* Clase de barra de navegación con Flex */
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #f2f2f2;
+        padding: 10px;
+    }
+    
