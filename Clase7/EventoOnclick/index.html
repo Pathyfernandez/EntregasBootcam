@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;1,700&family=Roboto:wght@100;300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>OneClick</title>
+</head>
+<body>
+    <header>
+        <nav class="nav">
+            <h1>Dojonary</h1>
+            <div>
+                <form action="" method="post" target="_blank">
+                    <input type="search" name="search" placeholder="Search">
+                </form>
+            </div>
+            <button id="loginButton" onclick="loginClicked()">Login</button>
+        </nav>
+    </header>
+    <main class="flex-box">
+        <section class="section">
+            <div class="container">
+                <div class="box">
+                    <h1>ninja</h1>
+                    <p>noun</p>
+                    <p>Plural:ninjas</p>
+                    <button class="button" onclick="likeButtonClicked(this)">13 likes</button>
+                </div>
+                <div>
+                    <div class="box1">
+                        <p>A practitioner skilled inthe</p>
+                        <a href="#">Japanese</a> art of<a href="#"> ninjutsu</a>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="box">
+                    <h1>ninja</h1>
+                    <p>noun</p>
+                    <p>Plural:ninjas</p>
+                    <button class="button" onclick="likeButtonClicked(this)">37 likes</button>
+                </div>
+                <div>
+                    <div class="box1">
+                        <p>A <a href="#">programmer</a> who breaks dow problems width <a href="#">zen</a> like focus</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section">
+            <div class="container2">
+                <div class="box1">
+                    <h2>Dojonary is defined by YOU</h2>
+                    
+                
+            <button id="addDefinitionButton" class="btn" onclick="addDefinitionClicked()">Add Definition</button>
+        </div>
+                </div>
+        </section>
+    </main>
+
+    <script src="./JS/onClick.js"></script>
+</body>
+</html>
