@@ -1,0 +1,76 @@
+nav{
+    background-color: rgb(129, 10, 240);
+    color: rgb(243, 208, 8);
+    font-size: 20px;
+    height: 100px;
+    padding-top: 30px;
+    padding-left: 20px;
+}
+.main{
+    display: inline;
+}
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 50px;
+    
+}
+
+.container{
+    border: solid 2px rgb(129, 10, 240);
+    width: 600px;
+    height: 150px;
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+.card{
+    border: solid 2px rgb(129, 10, 240);
+    width: 150px;
+    height: 300px;
+    text-align: center;
+}
+
+.title{
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(129, 10, 240);
+    text-align: center;
+    justify-content: center;
+}
+.icono{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-top: 20%;
+    border: solid 2px rgb(129, 10, 240);
+}
+
+button{
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    border: solid 1px black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: #f3e305;
+    color: #020202;
+    font-size: 15px;
+    font-weight: bold;
+    box-shadow: 5px 5px 5px #000000;
+}
+
+.card-list{
+    padding: 10px;
+    font-size: 22px;
+    text-align: justify;
+    color: black;
+    position: relative;
+}
+
+.span{
+    font-weight: bold;
+    font-size: 24px;
+}
