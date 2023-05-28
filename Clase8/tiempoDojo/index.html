@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>TiempoDojo</title>
+
+</head>
+<body>
+    <!-- navbar -->
+    <header>
+        <nav class="nav">
+            <div class="flex-container">
+                <h1 class="nav-title">DojoWeather</h1>
+                <ul class="nav-links">
+                    <li><a href="#" onclick="mensaje()">Burbank</a></li>
+                    <li><a href="#" onclick="mensaje()">Chicago</a></li>
+                    <li><a href="#" onclick="mensaje()">Dallas</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <!-- main -->
+    <main>
+        <div class="title">
+            <div>    
+                <h1>San Jose</h1>
+            </div>
+            <div class="title-2">
+            <div>
+                <span>show temperature in</span>
+            </div>
+                <div>
+                    <form action="#">
+                        <label for="lang"></label>
+                        <select name="degrees" id="lang" onchange="convertTemperature(this)">
+                            <option value="Fahrenheit">F</option>
+                            <option value="Celsius">C</option>
+                            
+                        </select>
+                    </form>
+                </div>
+                </div>
+        </div>
+        <div class="linea">
+            <h1></h1>
+        </div>
+        <section class="flex-container">
+            <div class="container"> 
+                <div class="card">
+                    <h2>Today</h2>
+                    <img class="img" src="./assets/some_rain.png" alt="some_rain">
+                    <p>some rain</p>
+                    <div>
+                        <span class="color1" class="temperatureSpan">24°</span>
+                        <span class="color2" class="temperatureSpan">18°</span>
+                    </div>
+                </div>
+                <div class="card">
+                    <h2>Tomorrow</h2>
+                    <img class="img" src="./assets/some_sun.png" alt="some_sun">
+                    <p>some sun</p>
+                    <div>
+                        <span class="color1">27°</span>
+                        <span class="color2">19°</span>
+                    </div>
+                </div>
+                <div class="card">
+                    <h2>Friday</h2>
+                    <img class="img" src="./assets/some_clouds.png" alt="some_clouds">
+                    <p>some clouds</p>
+                    <div>
+                        <span class="color1">21°</span>
+                        <span class="color2">16°</span>
+                    </div>
+                </div>
+                <div class="card">
+                    <h2>Saturday</h2>
+                    <img class="img" src="./assets/some_sun.png" alt="some_sun">
+                    <p>some sun</p>
+                    <div>
+                        <span class="color1">26°</span>
+                        <span class="color2">21°</span>
+                    </div>
+                </div>
+            </div>           
+        </section>
+    </main>
+    <!-- Cookie -->
+    <footer>
+        <div class="footer">
+            <div class="footer-container">
+                <div class="footer-item">
+                    <div class="cookie">
+                        <img src="./assets/cookie.png" alt="cookie">
+                    </div>
+                    <div>
+                        <h3>Stop! Cookie time</h3>
+                        <p>We use cookies (sadly not edible ones) to personalize content and ads, to provide social media features, and to analyze our traffic. <a href="#">Read more...</a></p>
+                    </div>
+                    <div>
+                        <form action="#"><button onclick="removeFooter()"">I Accept</button></form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="./js/tiempoDojo.js"></script>
+    
+</body>
+</html>
