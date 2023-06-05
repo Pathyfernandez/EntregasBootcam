@@ -1,0 +1,36 @@
+    #calculator {
+        width: 200px;
+        margin: 0 auto;
+        background-color: rgb(26, 11, 231);
+        border: solid 3px #000;
+        border-radius: 10px;
+    }
+    
+    #display {
+        background-color: #ebe707;
+        border: 1px solid #ccc;
+        padding: 10px;
+        text-align: right;
+        font-size: 20px;
+        margin-bottom: 10px;
+        border-radius: 10px;
+    }
+    
+    .row {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 5px;
+    }
+    
+    button {
+        width: 45px;
+        height: 45px;
+        font-size: 18px;
+        
+    }
+    
+    .operator {
+        background-color: #eed709;
+        color: #555;
+        border-radius: 10px;
+    }
